@@ -1,0 +1,29 @@
+<ion-view view-title="Select">
+	<ion-content>
+
+		<div class="row" style="margin-bottom:-1em;top:0;height:10%">
+			<div class="list list-inset col col-90" style="background-color:#eee; float:left;margin-bottom:0;margin-top: 0px;margin-left: 0px;margin-right: 0px;">
+			  <label class="item item-input" style="background-color:#eee">
+			    <i class="icon ion-search placeholder-icon"></i>
+			    <input type="text" placeholder="Search" style="padding-left:1em;padding-right:1em;">
+			  </label>
+			</div>
+			<div class="col col-10 center">
+				<button class="button button-icon icon ion-android-more-vertical" ng-click="openPopover($event)"></button>
+			</div>
+		</div>
+
+		<div style="height:90%">
+		<div class="card bookList" ng-repeat="book in bookData.data">
+		  <div class="item item-text-wrap" style="padding-left:0em;padding-right:0em;" ng-click="showBookDetail(book.id)">
+				<a class="item item-thumbnail-left">
+		      <img src="img/{{book.image}}">
+		      <h2 class="bookTitle item">{{book.title}} </h2>
+	      	<p>by {{book.author}}</p>
+					<p><img src="img/rupee.png" height="10em" >{{book.price}}</p>
+    		</a>
+		  </div>
+		</div>
+	</div>
+	</ion-content>
+</ion-view>

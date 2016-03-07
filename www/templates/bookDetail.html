@@ -1,0 +1,41 @@
+  <ion-view title="Details" ng-init="init()">
+  	<ion-content>
+      <div class="bookDetailMain">
+        <div class="row">
+          <img src="img/{{book.image}}" class="bookIMG center">
+        </div>
+        <div class="row">
+          <h4 class="item center ">{{book.title}}</h4>
+        </div>
+        <div class="row">
+          <p class="DetailPrice center"><img src="img/rupee.png">{{book.price}}</p>
+        </div>
+        <div class="row">
+          <button class="button button-assertive button-block">Buy Now</button>
+        </div>
+      </div>
+
+        <div class="list card bookDetailOther">
+          <a class="item item-icon-left">
+             <i class="icon ion-person"></i>
+              Author :  <b>{{book.author}}</b>
+           </a>
+
+           <a class="item item-icon-left">
+             <i class="icon ion-edit"></i>
+             Publication : <b>{{book.publication}}</b>
+           </a>
+
+           <a class="item item-icon-left">
+             <i class="icon ion-ios-snowy"></i>
+             Condition : <b>{{book.condition | uppercase}}</b>
+           </a>
+
+           <a class="item item-icon-left">
+             <i class="icon ion-ios-barcode-outline"></i>
+             ISBN : <b> {{book. isbn}}</b>
+           </a>
+        </div>
+
+    </ion-content>
+  </ion-view>

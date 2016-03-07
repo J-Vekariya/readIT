@@ -1,0 +1,118 @@
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.menu-image{
+	border-radius: 80%;
+	height: 7em;
+	width: 7em;
+	margin: 5% 5% 5% 5em;
+	vertical-align: center;
+}
+.profile-image{
+	height: 12em;
+	color: #000;
+}
+.list .item{
+  border:0px;
+}
+.item .icon{
+  font-size: 1.5em;
+}
+.bar,.item-input-inset{
+	padding: 0px;
+}
+.bookList{
+  margin-top:0.5em;
+  margin-bottom:0.5em;
+	max-height: 9em;
+	min-height: 9em;
+}
+.item-thumbnail-left > img:first-child{
+	width: 22%;
+}
+card,.bookList{
+  background-color: #fff;
+  color:#444;
+}
+.bookTitle.item{
+	border:none;
+	padding: 0px;
+}
+.scroll-content{
+	background-color: #eee;
+}
+.SellMainCard{
+	background-color: #fff;
+	margin: 0.8em;
+	border: 0.5px solid #ddd;
+	border-radius: 2px;
+}
+.barcodeButton{
+	margin: 1em;
+	margin-left: 0em;
+	width: 100%;
+}
+.barcodeButton,p{
+	color: #aaa;
+}
+.devider{
+	color:#aaa;
+}
+hr{
+	color: #aaa;
+}
+.barcodeButton .button.button-stable{
+	color: #aaa;
+	border-radius: 100%;
+	font-size: 1.89	em;
+	border: 0.5px solid #ddd;
+}
+.bookDetailMain{
+	background-color: #fff;
+	margin:0.8em;
+	border : 0.5px solid #ddd;
+	border-radius: 2px;
+	padding-top: 1em;
+}
+.bookDetailMain .bookIMG.center{
+	height: 12em;
+}
+.center.item{
+	border:none;
+	color: #888;
+}
+.DetailPrice {
+	font-size: 1.5em;
+	color: #f00;
+}
+.DetailPrice img{
+	height: 0.7em;
+}
+.bookDetailOther{
+	box-shadow: none;
+	margin-top: 0.8em;
+	border : 0.5px solid #ddd;
+	border-radius: 2px;
+}
+.detail.item{
+	color: #000;
+	padding: 0px;
+}
+.bookInputForm, .input-label{
+  color: #000;
+  font-weight: 600;
+  width: 100%;
+}
+.bookInputForm input[type=text]{
+  color: #666;
+}
+.item-select .input-label{
+  color: #000;
+  font-size: 0.95em;
+  font-weight: bold;
+}
+.bookInputForm .item-select{
+  margin-top: 0.5em;
+}

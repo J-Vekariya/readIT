@@ -1,0 +1,46 @@
+<ion-side-menus enable-menu-with-back-views="false">
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-positive">
+      <ion-nav-back-button>
+      </ion-nav-back-button>
+
+      <ion-nav-buttons side="left">
+        <button class="button button-icon button-clear ion-navicon" menu-toggle="left">
+        </button>
+      </ion-nav-buttons>
+    </ion-nav-bar>
+    <ion-nav-view name="menuContent"></ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="left">
+     <ion-content>
+     <ion-list >
+        <div class="item item-image menu-image">
+          <img src="img/ionic.png">
+        </div>
+        <h4 align="center">Welcome Guest</h4>
+
+        <ion-item menu-close href="#/app/buy" class="item item-icon-left" sty>
+            <i class="icon ion-android-cart"></i>
+            Buy
+        </ion-item>
+
+        <ion-item menu-close href="#/app/sell"  class="item item-icon-left">
+         <i class="icon ion-cash"></i>
+          Sell
+        </ion-item>
+
+        <ion-item menu-close href="#/app/profile"  class="item item-icon-left">
+         <i class="icon ion-person"></i>
+          Profile
+        </ion-item>
+
+        <ion-item menu-close href="#/app/settings"  class="item item-icon-left">
+         <i class="icon ion-settings"></i>
+          Settings
+        </ion-item>
+
+      </ion-list>
+    </ion-content>
+  </ion-side-menu>
+</ion-side-menus>
